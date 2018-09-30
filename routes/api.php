@@ -11,12 +11,14 @@ Route::group([
 ], function () {
     Route::post('login', 'AuthController@login');
     Route::post('signup', 'AuthController@signup');
-  
+
     Route::post('posts/get/all', 'Admin\AdminController@getData');
+  
     Route::group([
       'middleware' => 'auth:api'
     ], function() {
         Route::get('logout', 'AuthController@logout');
         Route::get('user', 'AuthController@user');
+	    Route::post('posts/add', 'Admin\AdminController@addData');
     });
 });
