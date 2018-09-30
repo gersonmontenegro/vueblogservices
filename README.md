@@ -34,4 +34,7 @@ I decided to use a server in AWS where I got some projects, and ir works like a 
 
 Ok, one hour later I got Ubuntu 16.04 Server with the backend working, and the MongoDB driver for PHP working. Next step: Set MongoDB into the Laravel installation.
 
+A few minutes later I got the package to use MongoDB from Laravel. I had to struggling for a little while with some configuration inside php.ini, because for some reason, the php config file called was different to the default file. Anyway, I have to continue after at least see this happiness message:
+
+![](https://lh3.googleusercontent.com/tFLXAbxYEZh26-mBbvWXNn9-94W9hTNI-fhSMlYRQ1Zdusc0TXZdLT2mh0EGBUQVHWE60H_RA88p=s800)
 
