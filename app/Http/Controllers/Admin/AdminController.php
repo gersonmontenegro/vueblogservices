@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Posts;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -19,6 +20,21 @@ class AdminController extends Controller
     }
 
     public function getData(){
-        return json_encode('grs');
+        $posts = Posts::all();
+        return json_encode($posts);
+    }
+
+    public function addData(Request $request){
+	    Posts::create($request->all());
+	    return json_encode(Posts::all());
+    }
+
+    public function editData(Request $request){
+        Posts::where('id', '=', $request->id)
+                ->update([
+                    'text' => $request->text,
+                    'title' => $request->title,
+                ]);
+        return json_encode(Posts::all());
     }
 }
