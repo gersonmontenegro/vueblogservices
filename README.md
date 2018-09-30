@@ -38,3 +38,12 @@ A few minutes later I got the package to use MongoDB from Laravel. I had to stru
 
 ![](https://lh3.googleusercontent.com/tFLXAbxYEZh26-mBbvWXNn9-94W9hTNI-fhSMlYRQ1Zdusc0TXZdLT2mh0EGBUQVHWE60H_RA88p=s800)
 
+Well, at this point of the early morning, I wrote web services to:
+
+ 1. Create a post.
+ 2. Edit a post.
+ 3. Get all posts.
+
+I haven't still write the service to remove an article, but I need start to integrate front and back....and, work the backend from the server directly is quite a pain, and soooo slow... u.u
+
+
