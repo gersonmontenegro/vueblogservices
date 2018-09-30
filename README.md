@@ -21,3 +21,9 @@ At this point, the first 2 steps are done. Now is the turn to make the authoriza
 After create the authorization system, I decided to jump for a little while to the 7th step, because I wanted to ensure that everything was ok by making some simple [unit testing](https://github.com/gersonmontenegro/vueblogservices/blob/master/tests/Unit/AuthTest.php), and yes, all is in order until now:
 
 ![](https://lh3.googleusercontent.com/ZvYnWqKUIdbWnnwmqlP-Nvg-ZQgvIoSAq2x7wXYOrhtpLxTFET2eiUy9lvkxYHFmRl1geeHu30es=s900)
+
+Now, is the time for MongoDB, so, again, I need to study a little more before to continue with this part of the project.
+
+*By the way, when I wrote the 4th step, Create database, I mean the users authentication database, because the data about post will be in MongoDB, not in MySQL.*
+
+
