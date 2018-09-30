@@ -32,4 +32,6 @@ After the shopping time, I started to install the driver for PHP, and things wen
 
 I decided to use a server in AWS where I got some projects, and ir works like a charm, but now, I need to download the backend repository, and start to work only in the server, but I have no options at this time.
 
+Ok, one hour later I got Ubuntu 16.04 Server with the backend working, and the MongoDB driver for PHP working. Next step: Set MongoDB into the Laravel installation.
+
 
