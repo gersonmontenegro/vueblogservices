@@ -11,6 +11,10 @@ Route::group([
 ], function () {
     Route::post('login', 'AuthController@login');
     Route::post('signup', 'AuthController@signup');
+
+    /////
+    Route::post('test', 'Admin\AdminController@getData');
+    /////
   
     Route::group([
       'middleware' => 'auth:api'
