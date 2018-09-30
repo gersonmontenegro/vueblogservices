@@ -28,4 +28,13 @@ class AdminController extends Controller
 	    Posts::create($request->all());
 	    return json_encode(Posts::all());
     }
+
+    public function editData(Request $request){
+        Posts::where('id', '=', $request->id)
+                ->update([
+                    'text' => $request->text,
+                    'title' => $request->title,
+                ]);
+        return json_encode(Posts::all());
+    }
 }
