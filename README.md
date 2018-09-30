@@ -26,4 +26,10 @@ Now, is the time for MongoDB, so, again, I need to study a little more before to
 
 *By the way, when I wrote the 4th step, Create database, I mean the users authentication database, because the data about post will be in MongoDB, not in MySQL.*
 
+I just realized that I didn't have mongo yet, so, I have to install it, and setting this database. I think this is gonna take a little while, so, I'm going to buy some food for tonight :).
+
+After the shopping time, I started to install the driver for PHP, and things went wrong, and for some reason I can't install the driver on Mac OS Sierra. Actually, after struggling for about 2 hours, I decided to stop, because this error looks like a pain for many persons, and I don't have more time.
+
+I decided to use a server in AWS where I got some projects, and ir works like a charm, but now, I need to download the backend repository, and start to work only in the server, but I have no options at this time.
+
 
