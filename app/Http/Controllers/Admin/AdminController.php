@@ -37,4 +37,10 @@ class AdminController extends Controller
                 ]);
         return json_encode(Posts::all());
     }
+
+    public function removeData(Request $request){
+        Posts::where('_id', '=', $request->_id)
+                ->delete();
+        return json_encode(Posts::all());
+    }
 }

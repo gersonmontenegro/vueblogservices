@@ -21,5 +21,6 @@ Route::group([
         Route::post('user', 'AuthController@user');
         Route::post('posts/edit', 'Admin\AdminController@editData');
 	    Route::post('posts/add', 'Admin\AdminController@addData');
+	    Route::post('posts/remove', 'Admin\AdminController@removeData');
     });
 });
