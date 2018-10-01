@@ -30,7 +30,7 @@ class AdminController extends Controller
     }
 
     public function editData(Request $request){
-        Posts::where('id', '=', $request->id)
+        Posts::where('_id', '=', $request->_id)
                 ->update([
                     'text' => $request->text,
                     'title' => $request->title,
